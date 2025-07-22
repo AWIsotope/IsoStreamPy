@@ -26,7 +26,9 @@ Hint: Restart IsoStreamPy with the button on the interface after each change of 
 As already mentioned before, this is an early alpha stage and was created for the usage in the archaeometallurgy. 
 
 
+How to Cite:
 
+"Wittke, A.: IsoStreamPy - an interactive heavy stable isotope data evaluation software"
 
 
 
