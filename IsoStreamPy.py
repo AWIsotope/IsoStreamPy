@@ -129,7 +129,6 @@ with st.sidebar:
     if option == 'Sn':
         if st.button('Press to run calculation'):
             with st.spinner("running... Please wait!"):
-                send_telegram_notification("📡 IsoStreamPy calculated Sn!")
                 time_start = time.perf_counter()
                 exec(open('IsoPySn.py').read())
                 st.write('Done!')
@@ -141,7 +140,6 @@ with st.sidebar:
     elif option == 'Cu':
         if st.button('Press to run calculation'):
             with st.spinner("running... Please wait!"):
-                send_telegram_notification("📡 IsoStreamPy calculated Cu!")
                 time_start = time.perf_counter()
                 exec(open('IsoPyCu.py').read())
                 st.write('Done!')
@@ -151,7 +149,6 @@ with st.sidebar:
     elif option == 'Sb':
         if st.button('Press to run calculation'):
             with st.spinner("running... Please wait!"):
-                send_telegram_notification("📡 IsoStreamPy calculated Sb!")
                 time_start = time.perf_counter()
                 exec(open('IsoPySb.py').read())
                 st.write('Done!')
